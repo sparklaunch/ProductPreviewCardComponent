@@ -19,8 +19,8 @@
 		9021E9DD287112A2000E3132 /* ProductPreviewCardComponentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPreviewCardComponentApp.swift; sourceTree = "<group>"; };
 		9021E9DE287112A2000E3132 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9021E9DF287112A6000E3132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9021E9E4287112A7000E3132 /* ProductPreviewCardComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductPreviewCardComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9021E9EA287112A7000E3132 /* ProductPreviewCardComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductPreviewCardComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9021E9E4287112A7000E3132 /* Product Preview Card Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Product Preview Card Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9021E9EA287112A7000E3132 /* Product Preview Card Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Product Preview Card Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9021E9EC287112A7000E3132 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,9 +54,9 @@
 		9021E9DC287112A2000E3132 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				9021E9DD287112A2000E3132 /* ProductPreviewCardComponentApp.swift */,
-				9021E9DE287112A2000E3132 /* ContentView.swift */,
-				9021E9DF287112A6000E3132 /* Assets.xcassets */,
+				9021E9FD287112C4000E3132 /* App */,
+				9021E9FC287112C0000E3132 /* Models */,
+				9021E9FB287112BC000E3132 /* Views */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -64,8 +64,8 @@
 		9021E9E5287112A7000E3132 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9021E9E4287112A7000E3132 /* ProductPreviewCardComponent.app */,
-				9021E9EA287112A7000E3132 /* ProductPreviewCardComponent.app */,
+				9021E9E4287112A7000E3132 /* Product Preview Card Component.app */,
+				9021E9EA287112A7000E3132 /* Product Preview Card Component.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,12 +78,36 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		9021E9FB287112BC000E3132 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9021E9DE287112A2000E3132 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9021E9FC287112C0000E3132 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9021E9FD287112C4000E3132 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9021E9DF287112A6000E3132 /* Assets.xcassets */,
+				9021E9DD287112A2000E3132 /* ProductPreviewCardComponentApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9021E9E3287112A7000E3132 /* ProductPreviewCardComponent (iOS) */ = {
+		9021E9E3287112A7000E3132 /* Product Preview Card Component (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9021E9F5287112A7000E3132 /* Build configuration list for PBXNativeTarget "ProductPreviewCardComponent (iOS)" */;
+			buildConfigurationList = 9021E9F5287112A7000E3132 /* Build configuration list for PBXNativeTarget "Product Preview Card Component (iOS)" */;
 			buildPhases = (
 				9021E9E0287112A7000E3132 /* Sources */,
 				9021E9E1287112A7000E3132 /* Frameworks */,
@@ -93,14 +117,14 @@
 			);
 			dependencies = (
 			);
-			name = "ProductPreviewCardComponent (iOS)";
+			name = "Product Preview Card Component (iOS)";
 			productName = "ProductPreviewCardComponent (iOS)";
-			productReference = 9021E9E4287112A7000E3132 /* ProductPreviewCardComponent.app */;
+			productReference = 9021E9E4287112A7000E3132 /* Product Preview Card Component.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9021E9E9287112A7000E3132 /* ProductPreviewCardComponent (macOS) */ = {
+		9021E9E9287112A7000E3132 /* Product Preview Card Component (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9021E9F8287112A7000E3132 /* Build configuration list for PBXNativeTarget "ProductPreviewCardComponent (macOS)" */;
+			buildConfigurationList = 9021E9F8287112A7000E3132 /* Build configuration list for PBXNativeTarget "Product Preview Card Component (macOS)" */;
 			buildPhases = (
 				9021E9E6287112A7000E3132 /* Sources */,
 				9021E9E7287112A7000E3132 /* Frameworks */,
@@ -110,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = "ProductPreviewCardComponent (macOS)";
+			name = "Product Preview Card Component (macOS)";
 			productName = "ProductPreviewCardComponent (macOS)";
-			productReference = 9021E9EA287112A7000E3132 /* ProductPreviewCardComponent.app */;
+			productReference = 9021E9EA287112A7000E3132 /* Product Preview Card Component.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9021E9DB287112A2000E3132 /* Build configuration list for PBXProject "ProductPreviewCardComponent" */;
+			buildConfigurationList = 9021E9DB287112A2000E3132 /* Build configuration list for PBXProject "Product Preview Card Component" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,8 +170,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9021E9E3287112A7000E3132 /* ProductPreviewCardComponent (iOS) */,
-				9021E9E9287112A7000E3132 /* ProductPreviewCardComponent (macOS) */,
+				9021E9E3287112A7000E3132 /* Product Preview Card Component (iOS) */,
+				9021E9E9287112A7000E3132 /* Product Preview Card Component (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +267,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,6 +321,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -324,7 +352,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.kim.jinwook.ProductPreviewCardComponent;
-				PRODUCT_NAME = ProductPreviewCardComponent;
+				PRODUCT_NAME = "Product Preview Card Component";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,7 +382,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.kim.jinwook.ProductPreviewCardComponent;
-				PRODUCT_NAME = ProductPreviewCardComponent;
+				PRODUCT_NAME = "Product Preview Card Component";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +412,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.kim.jinwook.ProductPreviewCardComponent;
-				PRODUCT_NAME = ProductPreviewCardComponent;
+				PRODUCT_NAME = "Product Preview Card Component";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -412,7 +440,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.kim.jinwook.ProductPreviewCardComponent;
-				PRODUCT_NAME = ProductPreviewCardComponent;
+				PRODUCT_NAME = "Product Preview Card Component";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -422,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9021E9DB287112A2000E3132 /* Build configuration list for PBXProject "ProductPreviewCardComponent" */ = {
+		9021E9DB287112A2000E3132 /* Build configuration list for PBXProject "Product Preview Card Component" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9021E9F3287112A7000E3132 /* Debug */,
@@ -431,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9021E9F5287112A7000E3132 /* Build configuration list for PBXNativeTarget "ProductPreviewCardComponent (iOS)" */ = {
+		9021E9F5287112A7000E3132 /* Build configuration list for PBXNativeTarget "Product Preview Card Component (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9021E9F6287112A7000E3132 /* Debug */,
@@ -440,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9021E9F8287112A7000E3132 /* Build configuration list for PBXNativeTarget "ProductPreviewCardComponent (macOS)" */ = {
+		9021E9F8287112A7000E3132 /* Build configuration list for PBXNativeTarget "Product Preview Card Component (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9021E9F9287112A7000E3132 /* Debug */,
