@@ -12,8 +12,10 @@ struct ProductContentView: View {
         VStack(alignment: .leading, spacing: 36) {
             ProductTitleView()
             PriceView()
+            AddToCartButton()
         }
-        .padding()
+        .padding(16)
+        .padding(.vertical, 16)
         .background(.white)
     }
 }
