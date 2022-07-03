@@ -14,6 +14,8 @@
 		9021E9F1287112A7000E3132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9021E9DF287112A6000E3132 /* Assets.xcassets */; };
 		9021E9F2287112A7000E3132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9021E9DF287112A6000E3132 /* Assets.xcassets */; };
 		9021E9FF287114BE000E3132 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021E9FE287114BE000E3132 /* BackgroundView.swift */; };
+		9021EA0128711510000E3132 /* MainCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021EA0028711510000E3132 /* MainCard.swift */; };
+		9021EA0328711534000E3132 /* ProductImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021EA0228711534000E3132 /* ProductImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9021E9EA287112A7000E3132 /* Product Preview Card Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Product Preview Card Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9021E9EC287112A7000E3132 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		9021E9FE287114BE000E3132 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		9021EA0028711510000E3132 /* MainCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCard.swift; sourceTree = "<group>"; };
+		9021EA0228711534000E3132 /* ProductImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				9021E9DE287112A2000E3132 /* ContentView.swift */,
+				9021EA0028711510000E3132 /* MainCard.swift */,
+				9021EA0228711534000E3132 /* ProductImageView.swift */,
 				9021E9FE287114BE000E3132 /* BackgroundView.swift */,
 			);
 			path = Views;
@@ -203,7 +209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9021EA0128711510000E3132 /* MainCard.swift in Sources */,
 				9021E9FF287114BE000E3132 /* BackgroundView.swift in Sources */,
+				9021EA0328711534000E3132 /* ProductImageView.swift in Sources */,
 				9021E9EF287112A7000E3132 /* ContentView.swift in Sources */,
 				9021E9ED287112A7000E3132 /* ProductPreviewCardComponentApp.swift in Sources */,
 			);
