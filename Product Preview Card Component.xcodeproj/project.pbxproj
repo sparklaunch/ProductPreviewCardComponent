@@ -95,13 +95,8 @@
 		9021E9FB287112BC000E3132 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9021EA0C28712155000E3132 /* Product */,
 				9021E9DE287112A2000E3132 /* ContentView.swift */,
-				9021EA0028711510000E3132 /* MainCard.swift */,
-				9021EA0428711596000E3132 /* ProductContentView.swift */,
-				9021EA0A28711FD4000E3132 /* AddToCartButton.swift */,
-				9021EA0828711E7B000E3132 /* PriceView.swift */,
-				9021EA06287115B9000E3132 /* ProductTitleView.swift */,
-				9021EA0228711534000E3132 /* ProductImageView.swift */,
 				9021E9FE287114BE000E3132 /* BackgroundView.swift */,
 			);
 			path = Views;
@@ -121,6 +116,19 @@
 				9021E9DD287112A2000E3132 /* ProductPreviewCardComponentApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		9021EA0C28712155000E3132 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				9021EA0028711510000E3132 /* MainCard.swift */,
+				9021EA0428711596000E3132 /* ProductContentView.swift */,
+				9021EA0A28711FD4000E3132 /* AddToCartButton.swift */,
+				9021EA0828711E7B000E3132 /* PriceView.swift */,
+				9021EA06287115B9000E3132 /* ProductTitleView.swift */,
+				9021EA0228711534000E3132 /* ProductImageView.swift */,
+			);
+			path = Product;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

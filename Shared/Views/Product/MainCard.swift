@@ -9,12 +9,15 @@ import SwiftUI
 
 struct MainCard: View {
     var body: some View {
-        VStack(spacing: .zero) {
-            ProductImageView()
-            ProductContentView()
+        ScrollView {
+            VStack(spacing: .zero) {
+                ProductImageView()
+                ProductContentView()
+            }
+            .cornerRadius(15)
+            .padding()
+            .padding(.vertical, 24)
         }
-        .cornerRadius(15)
-        .padding()
     }
 }
 
