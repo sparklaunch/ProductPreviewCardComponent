@@ -23,7 +23,7 @@ struct ProductTitleView: View {
                 .lineSpacing(5)
                 .fixedSize(horizontal: false, vertical: true)
         }
-        .frame(minWidth: .zero, maxWidth: .infinity)
+        .frame(minWidth: .zero, maxWidth: .infinity, alignment: .leading)
     }
 }
 

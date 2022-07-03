@@ -18,6 +18,7 @@
 		9021EA0328711534000E3132 /* ProductImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021EA0228711534000E3132 /* ProductImageView.swift */; };
 		9021EA0528711596000E3132 /* ProductContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021EA0428711596000E3132 /* ProductContentView.swift */; };
 		9021EA07287115B9000E3132 /* ProductTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021EA06287115B9000E3132 /* ProductTitleView.swift */; };
+		9021EA0928711E7B000E3132 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021EA0828711E7B000E3132 /* PriceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9021EA0228711534000E3132 /* ProductImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImageView.swift; sourceTree = "<group>"; };
 		9021EA0428711596000E3132 /* ProductContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductContentView.swift; sourceTree = "<group>"; };
 		9021EA06287115B9000E3132 /* ProductTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTitleView.swift; sourceTree = "<group>"; };
+		9021EA0828711E7B000E3132 /* PriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				9021E9DE287112A2000E3132 /* ContentView.swift */,
 				9021EA0028711510000E3132 /* MainCard.swift */,
 				9021EA0428711596000E3132 /* ProductContentView.swift */,
+				9021EA0828711E7B000E3132 /* PriceView.swift */,
 				9021EA06287115B9000E3132 /* ProductTitleView.swift */,
 				9021EA0228711534000E3132 /* ProductImageView.swift */,
 				9021E9FE287114BE000E3132 /* BackgroundView.swift */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9021EA0928711E7B000E3132 /* PriceView.swift in Sources */,
 				9021EA0128711510000E3132 /* MainCard.swift in Sources */,
 				9021E9FF287114BE000E3132 /* BackgroundView.swift in Sources */,
 				9021EA0328711534000E3132 /* ProductImageView.swift in Sources */,

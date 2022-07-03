@@ -9,8 +9,9 @@ import SwiftUI
 
 struct ProductContentView: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading, spacing: 36) {
             ProductTitleView()
+            PriceView()
         }
         .padding()
         .background(.white)
