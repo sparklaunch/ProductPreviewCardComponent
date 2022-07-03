@@ -9,17 +9,19 @@ import SwiftUI
 
 struct MainCard: View {
     var body: some View {
-        VStack {
+        VStack(spacing: .zero) {
             ProductImageView()
+            ProductContentView()
         }
         .cornerRadius(15)
+        .padding()
     }
 }
 
 struct MainCard_Previews: PreviewProvider {
     static var previews: some View {
         MainCard()
-            .padding()
+            .background(Color("BackgroundColor"))
             .previewLayout(.sizeThatFits)
     }
 }

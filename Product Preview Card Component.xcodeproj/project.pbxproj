@@ -16,6 +16,8 @@
 		9021E9FF287114BE000E3132 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021E9FE287114BE000E3132 /* BackgroundView.swift */; };
 		9021EA0128711510000E3132 /* MainCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021EA0028711510000E3132 /* MainCard.swift */; };
 		9021EA0328711534000E3132 /* ProductImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021EA0228711534000E3132 /* ProductImageView.swift */; };
+		9021EA0528711596000E3132 /* ProductContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021EA0428711596000E3132 /* ProductContentView.swift */; };
+		9021EA07287115B9000E3132 /* ProductTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9021EA06287115B9000E3132 /* ProductTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		9021E9FE287114BE000E3132 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		9021EA0028711510000E3132 /* MainCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCard.swift; sourceTree = "<group>"; };
 		9021EA0228711534000E3132 /* ProductImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImageView.swift; sourceTree = "<group>"; };
+		9021EA0428711596000E3132 /* ProductContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductContentView.swift; sourceTree = "<group>"; };
+		9021EA06287115B9000E3132 /* ProductTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 			children = (
 				9021E9DE287112A2000E3132 /* ContentView.swift */,
 				9021EA0028711510000E3132 /* MainCard.swift */,
+				9021EA0428711596000E3132 /* ProductContentView.swift */,
+				9021EA06287115B9000E3132 /* ProductTitleView.swift */,
 				9021EA0228711534000E3132 /* ProductImageView.swift */,
 				9021E9FE287114BE000E3132 /* BackgroundView.swift */,
 			);
@@ -212,7 +218,9 @@
 				9021EA0128711510000E3132 /* MainCard.swift in Sources */,
 				9021E9FF287114BE000E3132 /* BackgroundView.swift in Sources */,
 				9021EA0328711534000E3132 /* ProductImageView.swift in Sources */,
+				9021EA07287115B9000E3132 /* ProductTitleView.swift in Sources */,
 				9021E9EF287112A7000E3132 /* ContentView.swift in Sources */,
+				9021EA0528711596000E3132 /* ProductContentView.swift in Sources */,
 				9021E9ED287112A7000E3132 /* ProductPreviewCardComponentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

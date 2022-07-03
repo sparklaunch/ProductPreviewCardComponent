@@ -14,10 +14,3 @@ struct ProductImageView: View {
             .scaledToFit()
     }
 }
-
-struct ProductImageView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProductImageView()
-            .previewLayout(.sizeThatFits)
-    }
-}
